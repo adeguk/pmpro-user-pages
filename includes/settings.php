@@ -36,7 +36,7 @@ function pmproup_getOptions()
 */
 function pmproup_add_pages()
 {
-	add_submenu_page('pmpro-membershiplevels', 'User Pages', 'User Pages', 'manage_options', 'pmpro-user-pages', 'pmproup_adminpage');
+	add_submenu_page('pmpro-dashboard', 'User Pages', 'User Pages', 'manage_options', 'pmpro-user-pages', 'pmproup_adminpage');
 }
 add_action('admin_menu', 'pmproup_add_pages', 20);
 
